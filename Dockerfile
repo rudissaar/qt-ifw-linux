@@ -4,6 +4,7 @@ RUN \
     umask 022 && \
     dnf install -y \
         dbus-libs \
+        findutils \
         fontconfig \
         gawk \
         libxcb \
