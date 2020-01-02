@@ -1,4 +1,5 @@
-FROM fedora:latest
+FROM fedora:31
+MAINTAINER Kevin Rudissaar <kevin.rudissaar@gmail.com>
 ADD http://download.qt.io/online/qtsdkrepository/linux_x64/desktop/tools_ifw/qt.tools.ifw.32/3.2.0ifw-linux-x64.7z /tmp/ifw.7z
 RUN \
     umask 022 && \
